@@ -1,4 +1,4 @@
-# Aragon Nest Proposal: Visual process modeling with Statebox
+# Aragon Nest Proposal: Visual process modelling with Statebox
 
 ## Abstract
 
@@ -6,13 +6,13 @@ Statebox is a Turing incomplete language for protocols, whose preferred syntax i
 
 The language is build around a mathematical theory that is sufficiently abstract that it allows translation of diagrams into different many different domains: frontend (JS), backend, offchain (WASM), smart contract (EVM/WASM), etc.
 
-Besides the natural fit of diagrammatic languages to workflow modeling, the category theoretic underpinnings allow us to construct correctness proofs of the translation of diagrams to code or proof the non-existance of deadlock in a user supplied workflow.
+Besides the natural fit of diagrammatic languages to workflow modelling, the category theoretic underpinnings allow us to construct correctness proofs of the translation of diagrams to code or proof the non-existence of deadlock in a user supplied workflow.
 
-Many organisations have specialized workflows such as employee onboarding, budget approvals, etc. For example, if two people must approve something, one could model this as follows:
+Many organisations have specialised workflows such as employee onboarding, budget approvals, etc. For example, if two people must approve something, one could model this as follows:
 
 ![](https://i.imgur.com/zIpsohN.gif)
 
-We propose to investigate and implement a (proof of concept) backend for Statebox that would allow people to create customized workflows that "glue together" various Aragon services and enforce a certain process-like contract, without having to write any Solidity.
+We propose to investigate and implement a (proof of concept) backend for Statebox that would allow people to create customised workflows that "glue together" various Aragon services and enforce a certain process-like contract, without having to write any Solidity.
 
 
 ## Deliverables
@@ -32,11 +32,11 @@ Success reward: Up to $50k in ANT, given out when all deliverables are ready.
 
 - **Typedefs** To describe, in a PL independent way, the types on "wires" we developed an alternative to protocol buffers, this project can be seen on github.com/typedefs
 
-- **Studio** Our "process modeling IDE" is under heavy developement and not suitable for the general developer audience, but it can be browsed here https://statebox-studio-test.netlify.com
+- **Studio** Our "process modelling IDE" is under development and not yet suitable for outside developers, but in any case, it can be browsed here https://statebox-studio-test.netlify.com
 
-- **Team** We are probably be only company in the world that employs 7 Idris programmers! See https://statebox.org/team for team background
+- **Team** We are probably be only company in the world that employs 7 Idris programmers! see [`team.md`](https://github.com/statebox/aragon-nest-grants-program/blob/master/grants/Statebox/team.md)
 
-- **Burn**: We are relatively lean, burning about 25k/month for 10+ people; it's hard to say upfront what percentage of this would be allotted to this Aragon project.
+- **Burn**: About 25k/month for 10+ people; hard to say upfront what percentage of this would be allotted to this Aragon project.
 
 - **Legal Structure**: Currently the software is developed by the for-profit company  https://statebox.io (wih me being the sole investor). We also setup a Dutch not-for-profit foundation https://statebox.nl that is supposed to take over ownership etc, to ensure the project persists in the long term.
 
